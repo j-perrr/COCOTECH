@@ -27,6 +27,8 @@
   flex-direction: row;
   text-align: center;
   font-size: x-large;
+  font-weight: 100;
+  letter-spacing: 2px;
 }
 
 .hookSection :nth-child(2) {
@@ -182,5 +184,20 @@
   /* END SECTION */
   .endSection {
     height: 8vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .hook {
+    width: 100vw;
+  }
+
+  .hookSection {
+    font-size: medium;
+  }
+
+  .legalSection {
+    font-size: x-small;
+    letter-spacing: 0.65px;
   }
 }
