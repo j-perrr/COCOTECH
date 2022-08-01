@@ -1,13 +1,20 @@
 .container {
   width: 100vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 /* FIRST PANEL */
+.firstPanelWrapper {
+  display: flex;
+  flex-direction: row;
+}
 .firstPanelTextWrapper {
   width: 60vw;
+  height: 90vh;
   /* border: 5px solid #1f2124; */
-  background-color: whitesmoke;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(145deg, #8bc6ec 0%, #9599e2 100%);
+
   color: #021542;
 
   display: flex;
@@ -25,5 +32,86 @@
   border: none;
   border-radius: 5px;
 
-  color: whitesmoke;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+}
+
+/* SECOND PANEL */
+.secondPanelWrapper {
+  width: 100vw;
+  height: 102vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 1;
+}
+
+.secondPanelContent {
+  position: absolute;
+  border: 2px solid aliceblue;
+
+  width: 54vw;
+  height: 84vh;
+  color: black;
+}
+.floatingMessage {
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  left: 12vw;
+  right: 12vw;
+
+  background-image: linear-gradient(
+    174.2deg,
+    rgba(255, 244, 228, 1) 7.1%,
+    rgba(240, 246, 238, 1) 67.4%
+  );
+
+  width: 50%;
+  text-align: center;
+  z-index: 1;
+  color: #021542;
+  font-size: x-large;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 990px) {
+  .container {
+    flex-direction: column;
+    width: 100vw;
+  }
+  .firstPanelWrapper {
+    flex-direction: column;
+    width: 100vw;
+  }
+  .firstPanelTextWrapper {
+    margin-top: 3vh;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 40vh;
+    margin: 0%;
+  }
+  .firstPanelButton {
+    width: 75%;
+    margin-bottom: 3vh;
+  }
+  .floatingMessage {
+    top: -4vh;
+    width: 98%;
+    height: 40%;
+    left: 1.5vw;
+    right: 1.5vw;
+    border-radius: 10px;
+  }
+  .secondPanelContent {
+    height: 50vh;
+  }
 }
