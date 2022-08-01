@@ -8,24 +8,23 @@ const Footer = () => {
           <div className={styles.hookSection}>
             <Image
               src="/img/phone-icon.svg"
-              alt="phone icone"
+              alt="Call us"
               height="30"
               width="45"
             />
             <p>
-              Call: +<a href="tel:646-894-8273"> 1(646)894-8273</a>
+              <a href="tel:646-894-8273">+ 1(646)894-8273</a>
             </p>
           </div>
           <hr />
           <div className={styles.hookSection}>
             <Image
               src="/img/email-icon.svg"
-              alt="email icon"
+              alt="Email us"
               height="30"
               width="45"
             />
             <p>
-              Email:
               <a href="mailto:contact@cocotech.business">
                 {" "}
                 contact@cocotech.business
