@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Services from "../components/Services";
 import Slider from "../components/Slider";
 import styles from "../styles/Home.module.css";
 
@@ -17,10 +18,10 @@ export default function Home() {
       {/* CALL TO ACTION */}
       <div className={styles.firstPanelWrapper}>
         <Image
-          src="/img/cityBackground7.gif"
+          src="/img/cityBackground8.gif"
           alt="background"
-          height={600}
-          width={675}
+          height={900}
+          width={775}
         />
         <div className={styles.firstPanelTextWrapper}>
           <h1> We Are Your Software Solutions Provider!</h1>
@@ -35,6 +36,9 @@ export default function Home() {
       {/* SLIDER */}
       <div className={styles.secondPanelWrapper}>
         <Slider />
+      </div>
+      <div>
+        <Services />
       </div>
     </div>
   );
