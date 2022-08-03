@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav
       className="navbar navbar-expand-lg bg-light"
-      style={{ position: "sticky" }}
+      style={{ backgroundColor: "black" }}
     >
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
@@ -53,7 +53,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Pricing
+                Services
               </a>
             </li>
             <li className="nav-item">
