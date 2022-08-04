@@ -45,9 +45,10 @@
   .title {
     font-size: xx-large;
     font-weight: 200;
+    margin-top: 6vh;
   }
   .button {
     width: 30vw;
-    margin-bottom: 5vh;
+    margin-bottom: 6vh;
   }
 }
