@@ -18,10 +18,10 @@ export default function Home() {
       {/* CALL TO ACTION */}
       <div className={styles.firstPanelWrapper}>
         <Image
-          src="/img/cityBackground8.gif"
+          src="/img/techBackground2.gif"
           alt="background"
           height={900}
-          width={775}
+          width={600}
         />
         <div className={styles.firstPanelTextWrapper}>
           <h1> We Are Your Software Solutions Provider!</h1>

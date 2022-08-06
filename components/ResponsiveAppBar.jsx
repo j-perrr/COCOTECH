@@ -14,7 +14,11 @@ import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import Image from "next/image";
 
-const pages = ["Portfolio", "Pricing", "Blog"];
+const pages = ["Portfolio", "Services", "Pricing", "Request Consultation"];
+// Portfolio
+// Services
+// Pricing
+// Contact Us
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
