@@ -36,6 +36,7 @@ export default function Home() {
       {/* SLIDER */}
       <div className={styles.secondPanelWrapper}>
         <Slider />
+        <button className={styles.sliderButton}>VIEW ALL</button>
       </div>
       <div>
         <Services />

@@ -1,3 +1,4 @@
+import { style } from "@mui/system";
 import Image from "next/image";
 import styles from "../styles/Slider.module.css";
 const Slider = () => {
