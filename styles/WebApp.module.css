@@ -1,0 +1,112 @@
+.container {
+  background-color: black;
+  width: 100vw;
+  color: #8bc6ec;
+}
+/* HERO */
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 5vh;
+}
+
+.heroTitle {
+  margin-top: 5vh;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.75rem;
+}
+.heroTitle > h1 {
+  font-weight: 300;
+  color: #8bc6ec;
+}
+/* OVERVIEW */
+.overview {
+  text-align: center;
+  width: 95%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overview > h2 {
+  text-decoration: underline;
+  font-size: xx-large;
+  font-weight: 300;
+  letter-spacing: 00.5rem;
+}
+.overview > p {
+  font-size: larger;
+  font-weight: 200;
+}
+
+/* PAINTING THE PICTURE */
+.picturePainted {
+  text-align: center;
+  width: 95%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.picturePainted > h2 {
+  text-decoration: underline;
+  font-size: xx-large;
+  font-weight: 300;
+  letter-spacing: 00.5rem;
+}
+
+.picturePainted > ul {
+  font-size: larger;
+  font-weight: 200;
+  list-style: none;
+}
+
+.picturePainted > p {
+  font-size: larger;
+  font-weight: 200;
+}
+
+/* SITE OUTREACH */
+.siteOutreach {
+  text-align: center;
+  width: 95%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.siteOutreach > h2 {
+  text-decoration: underline;
+  font-size: xx-large;
+  font-weight: 300;
+  letter-spacing: 00.5rem;
+}
+
+.siteOutreach > p {
+  font-size: larger;
+  font-weight: 200;
+}
+
+.whyUs {
+  text-align: center;
+  width: 95%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.whyUs > h2 {
+  text-decoration: underline;
+  font-size: xx-large;
+  font-weight: 300;
+  letter-spacing: 00.5rem;
+}
+
+.whyUs > p {
+  font-size: larger;
+  font-weight: 200;
+}

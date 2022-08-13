@@ -14,7 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import Image from "next/image";
 
-const pages = ["Portfolio", "Services", "Pricing", "Request Consultation"];
+const pages = ["Home", "Portfolio", "Services", "Request Consultation"];
 // Portfolio
 // Services
 // Pricing

@@ -70,8 +70,7 @@ const Footer = () => {
             <li className={styles.brandName}>Useful Links</li>
             <li>Portfolio</li>
             <li>Services</li>
-            <li>Pricing</li>
-            <li>Contact Us</li>
+            <li>Request Consultation</li>
           </ul>
         </div>
       </div>

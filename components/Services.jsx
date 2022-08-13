@@ -13,12 +13,6 @@ const Services = () => {
       </div>
       <hr />
       <div className={styles.wrapper}>
-        {/* Mobile Applications  */}
-        <img src="/img/mobileappIcon.png" />
-        <h3>Mobile App Development</h3>
-      </div>
-      <hr />
-      <div className={styles.wrapper}>
         {/* Tech Support */}
         <img src="/img/techsupportIcon.png" />
         <h3>Technology Support</h3>
