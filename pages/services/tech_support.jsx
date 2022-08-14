@@ -64,7 +64,7 @@ const tech_support = () => {
           small and midsized companies in New York City with highly-reliable
           tech support.
         </p>
-        <h3>Some Of The Problems We've Fixed:</h3>
+        <h3>Some Of The Problems We&apos;ve Fixed:</h3>
         <ul>
           <li>Software Bugs & Errors</li>
           <li>Slow or crashed computers</li>
@@ -74,7 +74,7 @@ const tech_support = () => {
         </ul>
       </div>
       <div className={styles.solution}>
-        <h2>The Solution That's Always There For You</h2>
+        <h2>The Solution That&apos;s Always There For You</h2>
         <p></p>
       </div>
     </div>

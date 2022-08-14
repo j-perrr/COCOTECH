@@ -72,7 +72,7 @@ const web_app = () => {
       <br />
       <br />
       <div className={styles.siteOutreach}>
-        <h2>Website Can't Reach Audience?</h2>
+        <h2>Website Can&apos;t Reach Audience?</h2>
         <Image
           src="/img/cannotFind.gif"
           alt="background"
@@ -80,14 +80,15 @@ const web_app = () => {
           width={400}
         />
         <p>
-          Don't worry about the website not gaining traction, we <b>ensure</b>{" "}
-          your website <b>reaches</b> your <b>target audience</b>...
+          Don&apos;t worry about the website not gaining traction, we{" "}
+          <b>ensure</b> your website <b>reaches</b> your <b>target audience</b>
+          ...
         </p>
         <p>
           Whether it be with Search Engine Ads, Google My Business, or SEO
           Optimization ... (which our sites already come SEO Optimized) ... We
-          make sure your website gets seen by your target audience, and that's a{" "}
-          <b>guarantee</b>!
+          make sure your website gets seen by your target audience, and
+          that&apos;s a <b>guarantee</b>!
         </p>
       </div>
       <br />
@@ -102,22 +103,22 @@ const web_app = () => {
         />
         <p>
           We understand how saturated the software solutions industry is,
-          there's many other alternatives to us, some also being cheaper than
-          us. We also understand that as a Business owner, you have no time on
-          your plate to worry about the intricacies of technology.{" "}
+          there&apos;s many other alternatives to us, some also being cheaper
+          than us. We also understand that as a Business owner, you have no time
+          on your plate to worry about the intricacies of technology.{" "}
         </p>
         <p>
-          But there's a reason as to why time after time, we are preferred above
-          others:{" "}
+          But there&apos;s a reason as to why time after time, we are preferred
+          above others:{" "}
         </p>
         <p>
-          <b>We don't focus on design, we focus on effective solutions.</b>
+          <b>We don&apos;t focus on design, we focus on effective solutions.</b>
         </p>
         <p>
           At Cocotech Solutions, <b>everything is taken care of for you</b>...
           From the design, to the development, to the deployment, to the
           maintenance of the website,{" "}
-          <b>rest assured we'll be with you every step of the way!</b>
+          <b>rest assured we&apos;ll be with you every step of the way!</b>
         </p>
       </div>
       <br />
